@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+
+.muliText {
+    font-family: 'Mulish', sans-serif;;
+}
+
+.latoText {
+    font-family: 'Lato', sans-serif; 
+}
+
+.catamaranText {
+    font-family: "Catamaran", sans-serif;
+}
+
+.background {
+    background: url("./img/bg-pattern.png"), linear-gradient(90deg, #da2431, #7a4397);
+}
+
+
+    .menu{
+    background-color:white;
+    }
+
+
+.btnHover{
+    border-radius:30px;
+    border-color: white;
+    background-color: transparent;
+    transition: border-color, background-color;
+   
+
+}
+.btnHover:hover {
+background-color: #fdcc52;
+border-color:#fdcc52;
+}
+
+
+.positionA{
+    position: absolute;
+    width: 80%;
+}
+.positionR {
+    position: relative;
+}
+
+.googleLink {
+    width:18rem;
+}
+
+
+.line {
+    border-color:#a83463;
+}
+.icon {
+    margin:0 auto;
+    color:#a83463;
+}
+
+.phone {
+    background: url(./img/bg-cta.jpg);
+    box-shadow:inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    background-size: cover; 
+}
+
+.btnHover2 {
+    border-radius:30px;
+    border-color: white;
+    color:white;
+    background-color: transparent;
+    transition: border-color, background-color;
+   
+}
+
+.btnHover2:hover {
+    background-color: #fdcc52;
+    border-color:#fdcc52;
+    }
+
+    .twitter {
+        background-color: #1da1f3;
+    }
+
+    .fa-twitter {
+   left: 9px;
+    position: relative;
+    }
+
+    .facebook {
+        background-color: #3b5999;
+    }
+    .fa-facebook{
+        padding:10px;
+        left: 5px;
+    position: relative;
+    }
+
+    .google{
+        background-color: #dd4c39;
+    }
+
+    .fa-google{
+        padding:10px;
+    position: relative;
+    }
+
+
+    .footer {
+        text-decoration: none;
+        color:grey;
+    }
+
+    .footer:hover {
+        text-decoration: none;
+        color: #fdcc52;
+    }
+
+    
